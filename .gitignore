@@ -402,3 +402,20 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+/obj/Debug/net8.0/ref/Simple_Microservice_WebApp.dll
+/obj/Debug/net8.0/refint/Simple_Microservice_WebApp.dll
+/obj/Debug/net8.0/staticwebassets/msbuild.build.Simple_Microservice_WebApp.props
+/obj/Debug/net8.0/ApiEndpoints.json
+/obj/Debug/net8.0/apphost.exe
+/obj/Debug/net8.0/Simple_Microservice_WebApp.AssemblyInfo.cs
+/bin/Debug/net8.0/Simple_Microservice_WebApp.pdb
+/bin/Debug/net8.0/Simple_Microservice_WebApp.exe
+/bin/Debug/net8.0/Simple_Microservice_WebApp.dll
+/bin/Debug/net8.0/Simple_Microservice_WebApp.deps.json
+/obj/Debug/net8.0/Simple_Microservice_WebApp.AssemblyInfoInputs.cache
+/obj/Debug/net8.0/Simple_Microservice_WebApp.csproj.CoreCompileInputs.cache
+/obj/Debug/net8.0/Simple_Microservice_WebApp.csproj.FileListAbsolute.txt
+/obj/Debug/net8.0/Simple_Microservice_WebApp.dll
+/obj/Debug/net8.0/Simple_Microservice_WebApp.genruntimeconfig.cache
+/obj/Debug/net8.0/Simple_Microservice_WebApp.pdb
+/obj/Debug/net8.0/staticwebassets.build.json
