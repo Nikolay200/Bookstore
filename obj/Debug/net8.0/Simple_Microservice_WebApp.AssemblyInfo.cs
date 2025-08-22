@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Simple_Microservice_WebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+71bcccc784443535ad0812d7814118b06711719d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+898fc265f7691a5ec1233b3a0e2af4fee989915b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Simple_Microservice_WebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Simple_Microservice_WebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

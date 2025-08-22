@@ -1,5 +1,14 @@
-var builder = WebApplication.CreateBuilder(args);
+using Marten;
 
+var builder = WebApplication.CreateBuilder(args);
+// Add connection string
+
+var connectionString = builder.Configuration.GetConnectionString("PostgresStringConnection")!;
+
+builder.Services.AddMarten(options =>
+{
+    options.Connection(connectionString);
+});
 // Add services to the container.
 
 builder.Services.AddControllers();

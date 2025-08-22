@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\SimpleMicroservice\\Simple_Microservice_WebApp\\Simple_Microservice_WebApp.csproj": {}
+    "D:\\Bookstore\\Simple_Microservice_WebApp.csproj": {}
   },
   "projects": {
-    "E:\\SimpleMicroservice\\Simple_Microservice_WebApp\\Simple_Microservice_WebApp.csproj": {
+    "D:\\Bookstore\\Simple_Microservice_WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\SimpleMicroservice\\Simple_Microservice_WebApp\\Simple_Microservice_WebApp.csproj",
+        "projectUniqueName": "D:\\Bookstore\\Simple_Microservice_WebApp.csproj",
         "projectName": "Simple_Microservice_WebApp",
-        "projectPath": "E:\\SimpleMicroservice\\Simple_Microservice_WebApp\\Simple_Microservice_WebApp.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "E:\\SimpleMicroservice\\Simple_Microservice_WebApp\\obj\\",
+        "projectPath": "D:\\Bookstore\\Simple_Microservice_WebApp.csproj",
+        "packagesPath": "C:\\Users\\smirnov\\.nuget\\packages\\",
+        "outputPath": "D:\\Bookstore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\smirnov\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +44,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -98,7 +99,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
