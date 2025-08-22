@@ -1,4 +1,5 @@
 using Marten;
+using Simple_Microservice_WebApp.Data.Seed;
 
 var builder = WebApplication.CreateBuilder(args);
 // Add connection string
@@ -8,7 +9,7 @@ var connectionString = builder.Configuration.GetConnectionString("PostgresString
 builder.Services.AddMarten(options =>
 {
     options.Connection(connectionString);
-});
+}).UseLightweightSessions().InitializeWith<InitializeBookDataBase>();
 // Add services to the container.
 
 builder.Services.AddControllers();
