@@ -1,5 +1,7 @@
 using Carter;
+using FluentValidation;
 using Marten;
+using Simple_Microservice_WebApp.Behaviors;
 using Simple_Microservice_WebApp.Data.Seed;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,12 +14,14 @@ builder.Services.AddMarten(options =>
     options.Connection(connectionString);
 }).UseLightweightSessions().InitializeWith<InitializeBookDataBase>();
 
+var assembly = typeof(Program).Assembly;
 
 builder.Services.AddMediatR(config =>
 {
-    config.RegisterServicesFromAssembly(typeof(Program).Assembly);
+    config.RegisterServicesFromAssembly(assembly);
+    config.AddOpenBehavior(typeof(ValidationBehavior<,>));
 });
-
+builder.Services.AddValidatorsFromAssembly(assembly);
 builder.Services.AddCarter();
 // Add services to the container.
 
