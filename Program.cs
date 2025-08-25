@@ -1,3 +1,4 @@
+using Carter;
 using Marten;
 using Simple_Microservice_WebApp.Data.Seed;
 
@@ -10,6 +11,14 @@ builder.Services.AddMarten(options =>
 {
     options.Connection(connectionString);
 }).UseLightweightSessions().InitializeWith<InitializeBookDataBase>();
+
+
+builder.Services.AddMediatR(config =>
+{
+    config.RegisterServicesFromAssembly(typeof(Program).Assembly);
+});
+
+builder.Services.AddCarter();
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -19,6 +28,7 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
+app.MapCarter();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
